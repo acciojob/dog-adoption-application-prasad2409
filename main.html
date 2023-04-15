@@ -8,7 +8,24 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post" id="form1">
+		<!--<label for="name" id="name">Name</label>-->
+		<input id="name" type="text" placeholder="Name" required>
+		<input id="phone" type="text" placeholder="Phone Number">
+		<input id="address" type="text" placeholder="Address">
+		<label for="dog">Have you ever lived with a Dog before?</label>
+		<input type="checkbox" value="Have you ever lived with a Dog before?">
+		<label for="select">Please select your preferred breeds </label>
+		<select name="multi" id="multiSelect" multiple>
+			<Option value="German Shepherd">German Shepherd</Option>
+			<option value="Bulldog">Bulldog</option>
+			<option value="Alaskan Malamute">Alaskan Malamute</option>
+			<option value="Poodle">Poodle</option>
+		</select>
+		<button id = "submit" form="form1" type="submit" value="Submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
+
 </script>
 
 </body>
